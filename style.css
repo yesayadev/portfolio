@@ -175,8 +175,7 @@ body {
   }
 }
 
-@media (max-width:532px) {
-
+@media (max-width: 532px) {
 }
 
 @media (max-width: 481px) {
@@ -188,8 +187,24 @@ body {
     padding: 0 2.5rem;
   }
 
+  .hero p {
+    font-size: 6px;
+  }
+
   .nav a {
     font-size: 8px;
+  }
+
+  .projects {
+    margin-top: -12rem;
+  }
+
+  .projects .card {
+    height: 32rem;
+  }
+
+  .projects .card p {
+    font-size: 6px;
   }
 
   .projects .card .card-footer {
@@ -204,6 +219,9 @@ body {
     font-size: 8px;
   }
 
+  .profile {
+    margin-top: 7rem;
+  }
   .profile .col p {
     font-size: 2px;
     margin-right: 2rem;
