@@ -229,17 +229,21 @@ body {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 382px) {
   html {
-    font-size: 40%;
+    font-size: 50%;
+  }
+
+  .hero .row div {
+    padding: 0 3rem;
   }
 
   .hero h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .hero p {
-    font-size: 50%;
+    font-size: 55%;
   }
 
   .projects {
@@ -249,13 +253,17 @@ body {
 
   .projects .card-list {
     margin-top: 1rem;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
+  }
+
+  .projects .card-list .col {
+    width: 40%;
   }
 
   .projects .card {
     background-color: var(--color-bg-light);
     color: white;
-    height: 34rem;
+    height: 28rem;
     margin-top: 3rem;
   }
 
