@@ -175,9 +175,6 @@ body {
   }
 }
 
-@media (max-width: 532px) {
-}
-
 @media (max-width: 481px) {
   html {
     font-size: 50%;
@@ -196,7 +193,11 @@ body {
   }
 
   .projects {
-    margin-top: -12rem;
+    margin-top: -5rem;
+  }
+
+  .projects .card-list {
+    margin-left: 0;
   }
 
   .projects .card {
