@@ -132,6 +132,7 @@ body {
 
   .projects .card-list {
     margin-top: 1rem;
+    margin-left: 0.2rem;
   }
 
   .projects .card {
@@ -139,6 +140,10 @@ body {
     color: white;
     height: 35rem;
     margin-top: 1rem;
+  }
+
+  .profile {
+    margin-top: 4rem;
   }
 }
 
@@ -160,7 +165,8 @@ body {
   }
 
   .projects .card-list {
-    margin-left: 1.5rem;
+    margin-left: 2.4rem;
+    width: 95%;
   }
 
   .projects .card {
@@ -235,7 +241,8 @@ body {
   }
 
   .projects .card-list {
-    margin-left: 2.5rem;
+    margin: 0 5.5rem;
+    width: 80%;
   }
 }
 
@@ -262,12 +269,8 @@ body {
   }
 
   .projects .card-list {
-    margin-top: 1rem;
-    margin-left: 2rem;
-  }
-
-  .projects .card-list .col {
-    width: 40%;
+    width: 94%;
+    margin-left: 2.5rem;
   }
 
   .projects .card {
