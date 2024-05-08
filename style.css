@@ -1,0 +1,258 @@
+:root {
+  --color-bg: rgb(22, 22, 22);
+  --color-bg-light: rgb(34, 34, 34);
+  --color-shadow: rgba(0, 0, 0, 0.5);
+}
+
+body {
+  font-family: "work sans", "Poppins";
+  font-size: 1rem;
+  background-color: var(--color-bg);
+  min-height: 500vh;
+}
+
+.nav a {
+  font-size: 20px;
+  color: white;
+}
+
+.nav a:hover {
+  color: #696969;
+}
+
+.hero {
+  min-height: 20vh;
+  background-color: var(--color-bg-light);
+  color: white;
+  text-shadow: var(--color-shadow);
+}
+
+.hero .row {
+  padding-top: 6rem;
+}
+
+.hero h1 {
+  font-family: "Poppins";
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.hero p,
+.projects p,
+.profile .content .text p {
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.projects,
+.profile {
+  min-height: 20vh;
+  margin-top: 8rem;
+  background-color: var(--color-bg);
+  color: white;
+  text-shadow: var(--color-shadow);
+}
+
+.projects {
+  margin-top: -8rem;
+}
+
+.projects h1,
+.profile h1 {
+  /* padding-bottom: 1rem; */
+  font-weight: 400;
+}
+
+.projects .card-list {
+  margin-top: 2rem;
+}
+
+.projects .card {
+  background-color: var(--color-bg-light);
+  color: white;
+  height: 34rem;
+  margin-top: 2rem;
+}
+
+.projects .card .btn {
+  background-color: #5e5e5e;
+  color: white;
+  text-shadow: black;
+}
+
+.projects .card .btn:hover {
+  background-color: #969696;
+  color: black;
+  text-shadow: black;
+}
+
+.projects .card .card-footer {
+  margin-top: 1rem;
+  padding-top: 20px;
+}
+
+.projects .card .card-footer .col {
+  background-color: var(--color-bg);
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 13px;
+}
+
+.profile .content img {
+  width: 70%;
+  filter: grayscale();
+}
+
+.profile .icon img {
+  opacity: 50%;
+  width: 50%;
+  filter: grayscale();
+}
+
+/* MEDIA QUERY */
+@media (max-width: 1024px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 75%;
+  }
+
+  .projects {
+    margin-top: -5rem;
+  }
+
+  .hero .row {
+    padding-top: 4rem;
+  }
+
+  .projects .card-list {
+    margin-top: 1rem;
+  }
+
+  .projects .card {
+    background-color: var(--color-bg-light);
+    color: white;
+    height: 35rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .projects {
+    margin-top: -4rem;
+  }
+
+  .hero .row div {
+    padding: 0 3rem;
+  }
+
+  .hero h1 {
+    font-size: 20px;
+  }
+
+  .hero p {
+    font-size: 0.5rem;
+  }
+
+  .projects .card-list {
+    margin-left: 1.5rem;
+  }
+
+  .projects .card {
+    background-color: var(--color-bg-light);
+    color: white;
+    height: 34rem;
+    margin-top: 3rem;
+  }
+
+  .projects .card p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width:532px) {
+
+}
+
+@media (max-width: 481px) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero .row div {
+    padding: 0 2.5rem;
+  }
+
+  .nav a {
+    font-size: 8px;
+  }
+
+  .projects .card .card-footer {
+    margin-top: 1rem;
+    padding-top: 10px;
+  }
+
+  .projects .card .card-footer .col {
+    background-color: var(--color-bg);
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 8px;
+  }
+
+  .profile .col p {
+    font-size: 2px;
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 40%;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 50%;
+  }
+
+  .projects {
+    min-height: 30vh;
+    margin-top: -3rem;
+  }
+
+  .projects .card-list {
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+  }
+
+  .projects .card {
+    background-color: var(--color-bg-light);
+    color: white;
+    height: 34rem;
+    margin-top: 3rem;
+  }
+
+  .projects .card p {
+    font-size: 5px;
+  }
+
+  .projects .card .card-footer {
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+
+  .projects .card .card-footer .col {
+    background-color: var(--color-bg);
+    border-radius: 4px;
+    padding: 3px;
+    font-size: 6px;
+  }
+}
