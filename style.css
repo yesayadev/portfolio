@@ -8,7 +8,7 @@ body {
   font-family: "work sans", "Poppins";
   font-size: 1rem;
   background-color: var(--color-bg);
-  min-height: 500vh;
+  min-height: 450vh;
 }
 
 .nav a {
@@ -46,7 +46,8 @@ body {
 }
 
 .projects,
-.profile {
+.profile,
+.contacts {
   min-height: 20vh;
   margin-top: 8rem;
   background-color: var(--color-bg);
@@ -59,8 +60,8 @@ body {
 }
 
 .projects h1,
-.profile h1 {
-  /* padding-bottom: 1rem; */
+.profile h1,
+.contacts h1 {
   font-weight: 400;
 }
 
@@ -108,6 +109,11 @@ body {
   opacity: 50%;
   width: 50%;
   filter: grayscale();
+}
+
+.contacts .contact-list {
+  list-style: none;
+  font-size: 1.2rem;
 }
 
 /* MEDIA QUERY */
