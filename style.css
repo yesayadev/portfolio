@@ -181,6 +181,32 @@ body {
   }
 }
 
+@media (max-width:494px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .projects .card-list {
+    margin-left: 1.4rem;
+  }
+
+  .projects .card {
+    width: 16rem !important;
+    height: 30rem;
+  }
+
+  .projects .card p {
+    font-size: 8px;
+  }
+
+  .projects .card .card-footer .col {
+    background-color: var(--color-bg);
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 8px;
+  }
+}
+
 @media (max-width: 481px) {
   html {
     font-size: 50%;
@@ -270,7 +296,7 @@ body {
 
   .projects .card-list {
     width: 94%;
-    margin-left: 2.5rem;
+    margin-left: 3.2rem;
   }
 
   .projects .card {
